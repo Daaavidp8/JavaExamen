@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="actividad2">
+  <grid id="27dc6" binding="panel2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7c74a" binding="color" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-raised" title="Comprueba El Color"/>
+        <children>
+          <vspacer id="b770a">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="dc06f" binding="choosecolor" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Elige El Color"/>
+        <children>
+          <vspacer id="41e71">
+            <constraints>
+              <grid row="0" column="1" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a74b0" class="javax.swing.JRadioButton" binding="rojoRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="2" left="5" bottom="2" right="2"/>
+              <text value="Rojo"/>
+            </properties>
+          </component>
+          <component id="b79df" class="javax.swing.JRadioButton" binding="marronRadioButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="2" left="5" bottom="2" right="2"/>
+              <text value="Marron"/>
+            </properties>
+          </component>
+          <component id="e23c" class="javax.swing.JRadioButton" binding="naranjaRadioButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="2" left="5" bottom="2" right="2"/>
+              <text value="Naranja"/>
+            </properties>
+          </component>
+          <component id="12bed" class="javax.swing.JRadioButton" binding="azulRadioButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="2" left="5" bottom="2" right="2"/>
+              <text value="Azul"/>
+            </properties>
+          </component>
+          <component id="e04c3" class="javax.swing.JRadioButton" binding="amarilloRadioButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="2" left="5" bottom="2" right="2"/>
+              <text value="Amarillo"/>
+            </properties>
+          </component>
+          <component id="d4430" class="javax.swing.JRadioButton" binding="verdeRadioButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="2" left="5" bottom="2" right="2"/>
+              <text value="Verde"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fabc3" binding="checkfont" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Comprueba La fuente"/>
+        <children>
+          <component id="b54b0" class="javax.swing.JLabel" binding="test">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Test"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8bc30" binding="choosefont" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Elige El Tamaño y la Fuente"/>
+        <children>
+          <component id="39b9d" class="javax.swing.JRadioButton" binding="comicSansRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Comic Sans"/>
+            </properties>
+          </component>
+          <component id="74421" class="javax.swing.JRadioButton" binding="SeriffRadioButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Seriff"/>
+            </properties>
+          </component>
+          <component id="65938" class="javax.swing.JRadioButton" binding="MagnetoRadioButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Magneto"/>
+            </properties>
+          </component>
+          <component id="e0954" class="javax.swing.JRadioButton" binding="valor1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="f567f" class="javax.swing.JRadioButton" binding="valor2">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="10"/>
+            </properties>
+          </component>
+          <component id="1f238" class="javax.swing.JRadioButton" binding="valor3">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="15"/>
+            </properties>
+          </component>
+          <component id="27a78" class="javax.swing.JRadioButton" binding="valor4">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="20"/>
+            </properties>
+          </component>
+          <component id="8b955" class="javax.swing.JRadioButton" binding="valor5">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="30"/>
+            </properties>
+          </component>
+          <component id="c599a" class="javax.swing.JRadioButton" binding="valor6">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="50"/>
+            </properties>
+          </component>
+          <component id="b6223" class="javax.swing.JRadioButton" binding="broadwayRadioButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Broadway"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Colors">
+      <member id="a74b0"/>
+      <member id="b79df"/>
+      <member id="e23c"/>
+      <member id="12bed"/>
+      <member id="e04c3"/>
+      <member id="d4430"/>
+    </group>
+    <group name="Font">
+      <member id="39b9d"/>
+      <member id="74421"/>
+      <member id="65938"/>
+      <member id="b6223"/>
+    </group>
+    <group name="Size">
+      <member id="e0954"/>
+      <member id="f567f"/>
+      <member id="1f238"/>
+      <member id="27a78"/>
+      <member id="8b955"/>
+      <member id="c599a"/>
+    </group>
+  </buttonGroups>
+</form>
